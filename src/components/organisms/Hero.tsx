@@ -25,7 +25,7 @@ export default function Hero() {
                     </p>
 
                     <div className="mt-8 flex gap-4">
-                        <Link to="/rating">
+                        <Link to="/ranking">
                             <Button>
                                 Mulai Rating
                             </Button>
