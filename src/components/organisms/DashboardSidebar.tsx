@@ -54,7 +54,7 @@ export default function DashboardSidebar() {
 
                     <div>
                         <h1 className="font-bold text-xl">
-                            Wisata Admin
+                            VisitRank Admin
                         </h1>
 
                         <p className="text-sm text-slate-500">

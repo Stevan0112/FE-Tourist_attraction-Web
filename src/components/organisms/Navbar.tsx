@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { MapPinned } from "lucide-react";
 
-import Button from "../atoms/Button";
+// import Button from "../atoms/Button";
 
 export default function Navbar() {
     return (
@@ -17,7 +17,7 @@ export default function Navbar() {
                     />
 
                     <span className="text-xl font-bold">
-                        WisataRank
+                        VisitRank
                     </span>
                 </Link>
 
@@ -31,11 +31,11 @@ export default function Navbar() {
                     </Link>
                 </nav>
 
-                <Link to="/login">
+                {/* <Link to="/login">
                     <Button>
                         Admin Login
                     </Button>
-                </Link>
+                </Link> */}
             </div>
         </header>
     );

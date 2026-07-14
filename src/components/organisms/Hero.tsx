@@ -8,7 +8,7 @@ export default function Hero() {
                 {/* Left Content */}
                 <div>
                     <span className="inline-block rounded-full bg-violet-100 px-4 py-2 text-sm font-semibold text-violet-700">
-                        ⭐ Sistem Pendukung Keputusan
+                        ⭐ Sistem Perangkingan Wisata
                     </span>
 
                     <h1 className="mt-6 text-5xl font-bold leading-tight text-slate-900">
@@ -21,8 +21,7 @@ export default function Hero() {
 
                     <p className="mt-6 text-lg text-slate-600">
                         Berikan penilaian terhadap tempat wisata favoritmu
-                        dan lihat hasil peringkat menggunakan metode
-                        SAW, WP, dan TOPSIS.
+                        dan lihat hasil peringkatnya.
                     </p>
 
                     <div className="mt-8 flex gap-4">
