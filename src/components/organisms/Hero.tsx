@@ -42,7 +42,7 @@ export default function Hero() {
                 {/* Right Content */}
                 <div className="hidden lg:flex justify-center">
                     <img
-                        src="https://picsum.photos/600/500?random=10"
+                        src="https://upload.wikimedia.org/wikipedia/commons/3/36/Gunung_Slamet_dari_Kr_Salam.jpg"
                         alt="Wisata"
                         className="rounded-3xl shadow-xl"
                     />
