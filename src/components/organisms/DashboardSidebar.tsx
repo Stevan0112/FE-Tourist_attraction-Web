@@ -5,6 +5,7 @@ import {
     PlusCircle,
     LogOut,
     Mountain,
+    Eye,
 } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 import useUserAuthStore from "../../store/userAuthStore";
@@ -41,6 +42,11 @@ export default function DashboardSidebar() {
             name: "Tambah Wisata",
             icon: PlusCircle,
             path: "/dashboard/wisata/create",
+        },
+        {
+            name: "Lihat SPK",
+            icon: Eye,
+            path: "/dashboard/spk",
         },
     ];
 

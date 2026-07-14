@@ -14,6 +14,7 @@ import DashboardIndex from "./page/dashboard/DashboardIndex";
 import WisataIndex from "./page/dashboard/wisata/WisataIndex";
 import WisataCreate from "./page/dashboard/wisata/WisataCreate";
 import WisataEdit from "./page/dashboard/wisata/WisataEdit";
+import SpkIndex from "./page/dashboard/spk/SpkIndex";
 import LoginPage from "./page/LoginPage";
 import ProtectedRoutes from "./routes/ProtectedRoutes";
 
@@ -75,6 +76,11 @@ const router = createBrowserRouter([
                     {
                         path: "wisata/edit/:id",
                         element: <WisataEdit />,
+                    },
+
+                    {
+                        path: "spk",
+                        element: <SpkIndex />,
                     },
                 ],
             },
